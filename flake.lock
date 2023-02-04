@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "handygccs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675556129,
+        "narHash": "sha256-If6gEr0xLrHzKlZuQxRhkWCx3NlcnttdU8U8bx1i/pw=",
+        "path": "/home/betongsuggan/Development/HandyGCCS",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/betongsuggan/Development/HandyGCCS",
+        "type": "path"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1675512093,
+        "narHash": "sha256-u1CY4feK14B57E6T+0Bhkuoj8dpBxCPrWO+SP87UVP8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8e8240194eda25b61449f29bb5131e02b28a5486",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-22.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "handygccs": "handygccs",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
